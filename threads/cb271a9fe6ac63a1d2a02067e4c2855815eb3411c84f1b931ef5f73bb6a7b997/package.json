@@ -1,0 +1,19 @@
+{
+  "name": "moc-library",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mộc Library — full-stack library management (reader + admin), Express + SQLite",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "seed": "node server/seed.js --reset"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.10.0",
+    "express": "^4.21.2"
+  }
+}
